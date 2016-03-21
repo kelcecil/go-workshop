@@ -10,16 +10,16 @@ func main() {
 	// Define a "bool" to tell if you're a student.
 
 	// Replace these values with your variables
-	fmt.Printf(printNameAndAge("", 0))
-	fmt.Printf(printStudentStatus(true))
+	fmt.Printf(PrintNameAndAge("Change me!", 0))
+	fmt.Printf(PrintStudentStatus(true))
 }
 
-func printNameAndAge(name string, age int) string {
+func PrintNameAndAge(name string, age int) string {
 	// Return a formatted string with fmt.Sprintf!
 	return fmt.Sprintf("Change this to print your name and age!")
 }
 
-func printStudentStatus(student bool) string {
+func PrintStudentStatus(student bool) string {
 	// Create an if statement to print if you're a student.
 	return fmt.Sprintf("Are you a student?")
 }
